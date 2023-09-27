@@ -8,7 +8,7 @@ RUN --mount=type=cache,target=/root/.cache pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8501
-EXPOSE 8502
+EXPOSE 1719
+EXPOSE 1720
 
 CMD /app/entrypoint.sh
